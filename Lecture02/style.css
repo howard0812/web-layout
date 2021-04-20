@@ -1,0 +1,15 @@
+.box {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+#box-5 {
+    width: 100%;
+    text-align: center;
+    background-image: url(https://picsum.photos/1920/400?image=1000);
+    position: fixed;
+    top: 0;
+    right: 0;
+
+}

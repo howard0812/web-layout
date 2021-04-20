@@ -1,0 +1,48 @@
+html,
+body,
+header,
+h1,
+h3,
+p {
+    /* 取消留白與邊界 */
+    padding: 0;
+    margin: 0;
+}
+
+/* TODO: 主版面的設定 */
+
+header,
+main,
+footer,
+div {
+    /* 設定框線 */
+
+}
+
+/* 頁首裡面的圖  取消留白 */
+header {
+    background-image: url("https://picsum.photos/1000/400?image=1042");
+    color: white;
+    height: 300px;
+
+}
+
+/* 標籤 main 類別 .main  ID #main  */
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+header,
+main {
+    text-align: center;
+}
+
+.card {
+    padding: 10px;
+    width: calc(100% / 3);
+}
+
+.card img {
+    width: 100%;
+}
